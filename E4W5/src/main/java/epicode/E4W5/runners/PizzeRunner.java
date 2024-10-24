@@ -20,7 +20,7 @@ public class PizzeRunner implements CommandLineRunner {
 
         Pizza margherita = new Pizza("Margherita", 6.50, 1104, List.of("Mozzarella", "Pomodoro"));
         Pizza prosciuttoFunghi = new Pizza("Prosciutto e Funghi", 7.50, 1454, List.of("Mozzarella", "Pomodoro", "Prosciutto cotto", "Funghi"));
-        Pizza quattroFormaggi = new Pizza("4 Formaggi", 8.00, 1715, List.of("Mozzarella", "Gorgonzola", "Stracchino", "Fontina"));
+        Pizza quattroFormaggi = new Pizza("4 Formaggi", 8.00, 1715, List.of("Mozzarella", "Gorgonzola", "Stracchino", " Fontina"));
 
 
         pizzaRepository.save(margherita);
